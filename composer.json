@@ -1,0 +1,13 @@
+{
+	"name": "netlogix\/cachetags",
+	"type": "typo3-flow-package",
+	"version": "1.0.0",
+	"require": {
+		"typo3\/flow": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Netlogix\\Cachetags": "Classes"
+		}
+	}
+}

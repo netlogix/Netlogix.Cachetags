@@ -1,0 +1,10 @@
+TYPO3:
+  Flow:
+    persistence:
+      doctrine:
+        eventSubscribers:
+          'Netlogix\Cachetags\Persistence\FlushCacheTagEventSubscriber': 'Netlogix\Cachetags\Persistence\FlushCacheTagEventSubscriber'
+Netlogix:
+  Cachetags:
+    objectIdentificationHelpers:
+      'Netlogix\Cachetags\ObjectIdentificationHelper\DomainObjectIdentificationHelper': 'Netlogix\Cachetags\ObjectIdentificationHelper\DomainObjectIdentificationHelper'
